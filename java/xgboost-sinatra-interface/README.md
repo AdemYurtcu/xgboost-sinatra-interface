@@ -1,12 +1,17 @@
-xgboost4j examples
-====
-* [Basic walkthrough of wrappers](src/main/java/org/dmlc/xgboost4j/demo/BasicWalkThrough.java)
-<a href ="chrome-extension://hgmloofddffdnphfgcellkdfbfbjeloo/RestClient.html#RequestPlace:project/2">tıkla</a>
 
-* [Cutomize loss function, and evaluation metric](src/main/java/org/dmlc/xgboost4j/demo/CustomObjective.java)
-* [Boosting from existing prediction](src/main/java/org/dmlc/xgboost4j/demo/BoostFromPrediction.java)
-* [Predicting using first n trees](src/main/java/org/dmlc/xgboost4j/demo/PredictFirstNtree.java)
-* [Generalized Linear Model](src/main/java/org/dmlc/xgboost4j/demo/GeneralizedLinearModel.java)
-* [Cross validation](src/main/java/org/dmlc/xgboost4j/demo/CrossValidation.java)
-* [Predicting leaf indices](src/main/java/org/dmlc/xgboost4j/demo/PredictLeafIndices.java)
-* [External Memory](src/main/java/org/dmlc/xgboost4j/demo/ExternalMemory.java)
+1-Run WebService class 
+2-WebService will begin to listen to the 4567 port
+3-Send these port by any rest client applications necessary parameters
+
+necessary parameters 
+
+for BasicWalkThrough demo ->
+
+http://localhost:4567/BasicWalkThrough
+
+get method's headers- > 
+
+eta: 1.0
+max_depth: 2
+silent: 1
+objective: binary:logistic
