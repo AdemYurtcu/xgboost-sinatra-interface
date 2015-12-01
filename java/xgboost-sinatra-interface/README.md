@@ -1,6 +1,8 @@
 
 1-Run WebService class 
+
 2-WebService will begin to listen to the 4567 port
+
 3-Send these port by any rest client applications necessary parameters
 
 necessary parameters 
